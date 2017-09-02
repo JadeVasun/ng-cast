@@ -8,7 +8,8 @@ angular.module('video-player')
   // TODO
     templateUrl: 'src/templates/videoList.html',
     bindings: {
-      videos: '<'
+      videos: '<',
+      videoclick: '<'
     },
     controller: 'videoCtrl'
   });

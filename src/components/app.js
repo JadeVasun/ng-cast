@@ -3,6 +3,8 @@ angular.module('video-player')
     this.videos = window.exampleVideoData;
     this.videoplay = window.exampleVideoData[0];
     console.log(this.videoplay);
+    this.videoClick = (video) =>
+      this.videoplay = video;
   })
 
   .component('app', {
